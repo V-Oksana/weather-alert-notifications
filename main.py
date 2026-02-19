@@ -13,10 +13,8 @@ account_sid = os.environ.get("ACCOUNT_SID")
 # https://www.latlong.net - find latitude and longitude
 weather_params = {
     "appid": openweather_api_key,
-    # "lon": -119.698189,
-    # "lat": 34.420830,
-    "lon": -0.127758,
-    "lat": 51.507351,
+    "lon": -119.698189,
+    "lat": 34.420830,
     "cnt": 4,
 }
 
